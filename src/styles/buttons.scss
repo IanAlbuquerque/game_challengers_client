@@ -1,0 +1,13 @@
+.btn {
+  user-select: none;
+  cursor: pointer;
+  background-color: #aaaaaa;
+  &:hover {
+    background-color: #cccccc;
+  }
+  &.disabled {
+    opacity: 0.5;
+    background-color: #cccccc;
+    cursor: wait;
+  }
+}

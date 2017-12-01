@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/buttons';
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.hflexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.vflexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.default-padding {
+  padding: 10px;
+}
+
+.v-item {
+  margin-bottom: 10px;
+}
